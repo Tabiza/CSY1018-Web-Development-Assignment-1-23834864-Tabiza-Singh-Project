@@ -1,13 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Teko&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    
+    <!-- Navigation Section -->
+    <div class="header_nav">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo">TaaZ</label>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Work Experience</a></li>
+                <li><a href="#">Site Report</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- header content section -->
+    <div class="header_content">
+        <div class="intro">
+            <h5>WELCOME TO MY WORLD</h5>
+            <h1>Hi, I'm <span>Tabiza Singh Thakuri</span></h1>
+            <h2>Professional Web Designer.</h2>
+            <P>Hi, I’m Tabiza Singh Thakuri. Nice to meet you.
+                Since beginning my journey as a freelance designer over 3 years ago, I've done remote work for agencies,
+                consulted for startups, and collaborated with talented people to create digital products for both
+                business and consumer use. I'm quietly confident, naturally curious, and perpetually working on
+                improving my chops one design problem at a time.</P>
+            <h3>Get in Touch</h3>
+            <p><span><a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                </span>
+            </p>
+        </div>
+        <div class="profile">
+            <img src="img/image1.jpg" alt="image">
+        </div>
+    </div>
+
+    <!-- My services section -->
+    <div class="services" align="center">
+        <h1>My Offered Services</h1>
+        <p>At about this time of year, some months after New Year’s resolutions have been made and kept, or made and
+            neglected.</p>
+
+        <div class="flex-container">
+            <div class="card01">
+                <div class="card_header">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2>Web Design</h2>
+                </div>
+                <p>“It is not because things are difficult that we do not dare; it is because we do not dare that they
+                    are difficult.”</p>
+            </div>
+            <div class="card02">
+                <div class="card_header">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Web Development</h2>
+                </div>
+                <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like
+                    the wind, opinions.</p>
+            </div>
+            <div class="card03">
+                <div class="card_header">
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h2>Photography</h2>
+                </div>
+                <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put
+                    into improving your skills.</p>
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="card01">
+                <div class="card_header">
+                    <i class="fa-regular fa-images"></i>
+                    <h2>Clipping Path</h2>
+                </div>
+                <p>Hypnosis quit smoking methods maintain caused quite a stir in the medical world over the last two
+                    decades. There is a lot of argument.</p>
+            </div>
+            <div class="card02">
+                <div class="card_header">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>App Interface</h2>
+                </div>
+                <p>Do you sometimes have the feeling that you’re running into the same obstacles over and over again?
+                    Many of my conflicts.</p>
+            </div>
+            <div class="card03">
+                <div class="card_header">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h2>Graphic Design</h2>
+                </div>
+                <p>You’ve heard the expression, “Just believe it and it will come.” Well, technically, that is true,
+                    however, ‘believing’ is not just thinking that.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section -->
+
+    <div class="footer">
+        <div class="footer_content">
+            <div class="flex_footer_container">
+                <div class="row01">
+                    <h3>About Me</h3>
+                    <P>Hi, I’m Tabiza Singh Thakuri. I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital
+                        products for both business and consumer use. I'm quietly confident, naturally curious, and
+                        perpetually working on improving my chops one design problem at a time.</P>
+                    <p>Copyright ©2023 All rights reserved | Tabiza Singh Thakuri</p>
+                </div>
+                <div class="row02">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with our latest trends</p>
+                    <form action="">
+                        <input type="email" id="email" name="email" placeholder="Enter Email Address">
+                    </form>
+                    <a href="#">Submit</a>
+                </div>
+                <div class="row03">
+                    <h3>Follow Me</h3>
+                    <p>Let us be social</p>
+                    <h5><a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
