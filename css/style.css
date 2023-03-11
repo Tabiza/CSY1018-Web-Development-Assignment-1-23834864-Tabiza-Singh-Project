@@ -56,16 +56,24 @@ nav ul li a {
 #check {
   display: none;
 }
+.header_banner{
+  background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url(../img/background1.jpg);
+  background-size: cover;
+	background-repeat: no-repeat;
+
+}
 .header_content {
-  min-height: 400px;
+  min-height: 600px;
   width: 90%;
   margin: auto;
   display: flex;
   gap: 10px;
+
 }
 .header_content .intro {
   padding: 100px 0px 0px 20px;
   width: 70%;
+  color: rgb(226, 241, 255);
 }
 .header_content .intro h5 {
   padding-bottom: 10px;
@@ -74,7 +82,7 @@ nav ul li a {
   font-size: 3rem;
 }
 .header_content .intro h1 span {
-  color: rgb(212, 13, 60);
+  color: rgb(16 189 255);
 }
 .header_content .intro h2 {
   font-size: 2rem;
@@ -92,6 +100,7 @@ nav ul li a {
 }
 .header_content .intro p span a {
   padding: 0px 10px 0px 0px;
+  color: #fff;
 }
 
 .profile {
@@ -105,15 +114,21 @@ nav ul li a {
 
 }
 
+.services_banner{
+  background:#101827;
+
+}
+
 .services {
   width: 90%;
   margin: auto;
   min-height: 750px;
+  color: #fff;
 }
 .services h1 {
   padding-top: 70px;
   padding-bottom: 20px;
-  color: #8490ff;
+  color: #7e22c4;
 }
 .services p {
   width: 50%;
@@ -145,7 +160,7 @@ nav ul li a {
   
 }
 .card_header:hover{
-  color: #8490ff;
+  color: #7e22c4;
 }
 .card_header{
   transition: 0.3s;
@@ -161,9 +176,84 @@ nav ul li a {
   margin: auto;
 }
 
+.portfolio_banner{
+  background: #1f2937;
+}
+.portfolio_section{
+  min-height: 450px;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  color: #fff;
+}
+.portfolio_section h1{
+  color:  #7e22c4;
+  padding-bottom: 20px;
+
+}
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+.card04, .card05, .card06 {
+  min-height: 200px;
+  width: 30%;
+  margin: auto;
+  position: relative;
+}
+.card04 img, .card05 img, .card06 img {
+  width: 100%;
+  height: 100%;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  background: #27292a;
+  cursor: pointer;
+}
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+}
+.card04:hover .overlay{
+  opacity: 0.9;
+}
+.card05:hover .overlay{
+  opacity: 0.9;
+}
+.card06:hover .overlay{
+  opacity: 0.9;
+}
+.content a{
+  border: 2px solid #6E07F3;
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: medium;
+  transition: 0.5s;
+  color: #fff;
+}
+.content a:hover{
+  background-color: #6E07F3;
+  color: #fff;
+}
+
+
 .footer{
   min-height: 300px;
-  background-color: #8490ff;
+  background-color: #3e4371;
 }
 .footer_content{
   width: 90%;
@@ -220,6 +310,8 @@ nav ul li a {
   color: #fff;
 }
 
+
+
 /* For mobile responsive */
 @media (max-width: 990px) {
   .checkbtn {
@@ -249,6 +341,7 @@ nav ul li a {
   .header_content {
     flex-direction: column;
     gap: 10px;
+    min-height: 1200px;
   }
   .header_content .intro {
     padding: 50px 0px 0px 20px;
@@ -287,6 +380,16 @@ nav ul li a {
     width: 100%;
     margin: auto;
     margin-top: 50px;
+  }
+  .flex-container1 {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 50px;
+  }
+  .card04, .card05, .card06 {
+    min-height: 200px;
+    width: 100%;
+    margin: auto;
   }
   .flex_footer_container {
     flex-direction: column;
