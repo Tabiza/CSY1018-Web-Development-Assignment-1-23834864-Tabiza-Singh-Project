@@ -1,0 +1,86 @@
+/* For Desktop size screen */
+.contact_banner{
+    min-height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) , url(../img/contact_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    position: relative;
+  
+}
+.contact_row{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact_row .col01, .contact_row .col02 {
+    width:50%;
+} 
+.contact_row .col01 p, .contact_row .col02 p{
+    padding: 30px 0px;
+}
+.contact_row .col01 a, .contact_row .col02 a{
+    color: rgb(225, 246, 255);
+    margin-bottom: 100px;
+}
+.link1, .link2{
+    padding-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #3e4371;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #4f558f;
+  }
+
+
+/* For mobile responsive */
+@media (max-width: 990px) {
+    .contact_banner{
+        min-height: 750px;
+    }
+    .contact_row{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_row .col01, .contact_row .col02 {
+        width:90%;
+        margin: auto;
+    } 
+
+    
+}
