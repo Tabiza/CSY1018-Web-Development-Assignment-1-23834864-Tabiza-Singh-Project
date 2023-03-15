@@ -1,0 +1,58 @@
+/* For Desktop Size screen */
+.work{
+    min-height: 700px;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url(../img/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work_content{
+    width: 90%;
+    margin:auto;
+    padding-top: 50px;
+}
+.work_content h1{
+    color: rgb(16 189 255);
+}
+.work_content p{
+    padding-top: 10px;
+    color: aliceblue;
+}
+
+.work_flex{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    gap:5%;
+}
+.work_card01, .work_card02, .work_card03 {
+    min-height: 400px;
+    border: 1px solid aliceblue;
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+h3{
+    padding: 10px 0px;
+    color: aliceblue;
+}
+p{
+    padding: 0px 10px 20px 10px;
+}
+
+
+
+/* For mobile responsive */
+@media (max-width: 990px) {
+    .work_flex{
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .work_card01, .work_card02, .work_card03 {
+        min-height: 400px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+}
