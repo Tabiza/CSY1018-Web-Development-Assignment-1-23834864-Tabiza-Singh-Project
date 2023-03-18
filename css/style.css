@@ -124,6 +124,7 @@ nav ul li a {
   margin: auto;
   min-height: 750px;
   color: #fff;
+  text-align: center;
 }
 .services h1 {
   padding-top: 70px;
@@ -132,6 +133,8 @@ nav ul li a {
 }
 .services p {
   width: 50%;
+  margin: auto;
+
 }
 
 .flex-container {
@@ -185,11 +188,15 @@ nav ul li a {
   margin: auto;
   padding-top: 50px;
   color: #fff;
+
 }
 .portfolio_section h1{
   color:  #7e22c4;
   padding-bottom: 20px;
-
+  text-align: center;
+}
+.portfolio_section p{
+  text-align: center;
 }
 .flex-container1 {
   display: flex;
@@ -314,7 +321,7 @@ nav ul li a {
 .row03 p{
   padding: 20px 0px;
 }
-.row03 h5 a{
+.row03 span a{
   padding: 0px 20px 0px 0px;
   font-size: 2rem;
   color: #fff;
@@ -369,6 +376,7 @@ nav ul li a {
 }
   .services p {
     width: 90%;
+    margin: auto;
   }
   .flex-container {
     flex-direction: column;
